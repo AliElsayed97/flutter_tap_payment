@@ -9,7 +9,7 @@ class TapServices {
   final String apiKey;
   final Map paymentData;
   String basePath = "https://api.tap.company/";
-  String version = "v2/authorize";
+  String version = "v2";
 
   TapServices({required this.apiKey, required this.paymentData});
 
